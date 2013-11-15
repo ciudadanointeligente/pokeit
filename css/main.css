@@ -121,6 +121,27 @@ ul.posts span {
   border: 0;
 }
 
+li.ng-scope.ng-binding {
+  background: #ccc;
+  margin: 10px;
+  float: left;
+  height: 200px;
+  width: 160px;
+  text-align: left;
+  list-style: none;
+  padding: 10px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
 /*****************************************************************************/
 /*
 /* Posts

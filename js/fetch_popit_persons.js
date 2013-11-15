@@ -1,3 +1,4 @@
+var popit_url = document.getElementById('popitUrl').innerHTML;
 var popitList = angular.module('popitList', []).config(function($interpolateProvider){
         $interpolateProvider.startSymbol('{[{').endSymbol('}]}');
     }
@@ -13,21 +14,14 @@ popitList.controller(
                 $scope.persons=[];
 
                 $http.jsonp(
-                        'http://fci.popit-api.dev.mysociety.org/api/persons?callback=JSON_CALLBACK'
+                        popit_url+'?callback=JSON_CALLBACK'
                 ).success(
                         function(data){
                                 $scope.persons = data.result;
-                                // console.log(data.result);
+                                // console.log({{site.name}});
                         }
                 );
-                $scope.persons2 = [
-                {name: 'fierita', id:2},
-                {name: 'pan', id:2},
-                {name: 'agua', id:3},
-                {name: 'fuego', id:4},
-                {name: 'tierra', id:5},
-                {name: 'aire', id:6},
-                ];
 
         }
 );
+
