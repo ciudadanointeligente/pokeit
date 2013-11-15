@@ -1,5 +1,7 @@
-name: Your New Jekyll Site
+name: "PokeIt, the ultra light campaign site"
 markdown: redcarpet
 pygments: true
 popit_url: http://fci.popit-api.dev.mysociety.org/api/persons/
+writeit_url: http://yourwriteiturl.you
+github_theme_url: http://yourwriteiturl.you
 
