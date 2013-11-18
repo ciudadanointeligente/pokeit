@@ -1,4 +1,5 @@
-var popit_url = document.getElementById('popitUrl').innerHTML;
+// var popit_url = document.getElementById('popitUrl').innerHTML;
+var popit_url = '{{ site.popit_url }}';
 var popitList = angular.module('popitList', []).config(function($interpolateProvider){
         $interpolateProvider.startSymbol('{[{').endSymbol('}]}');
     }
