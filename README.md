@@ -27,6 +27,12 @@ In order to have your own PokeIt site you need to follow these simple steps:
 
 You can check the result in _http://yourgithubusername.github.io/yourproject_
 
+## Advanced Settings
+### Theming
+You can pick one of the _several_ themes available online or you may create a new one.
+### Custom Domain
+If you want to use your own domain for your PokeIt site you must edit the DNS in your domain provider and point it to [github servers][custom_domain] and replace _yourdomain.com_ in ```CNAME``` file with your actual domain. Finally you must delete the hash (\#) before the url line in the ```_config.yml```file.
+
 
 
 [poplus]: http://poplus.org
@@ -36,3 +42,4 @@ You can check the result in _http://yourgithubusername.github.io/yourproject_
 [fork]: https://github.com/ciudadanointeligente/pokeit/fork
 [popit]: http://popit.mysociety.org
 [writeit]: http://writeit.ciudadanointeligente.org
+[custom_domain]: https://help.github.com/articles/setting-up-a-custom-domain-with-pages

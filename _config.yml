@@ -1,4 +1,5 @@
 name: "PokeIt, the ultra light campaign site"
+#url: http://yourdomain.com 
 markdown: redcarpet
 pygments: true
 popit_url: http://fci.popit-api.dev.mysociety.org/api/persons/
