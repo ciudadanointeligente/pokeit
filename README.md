@@ -16,13 +16,14 @@ So, in order to use PokeIt you must provide a URL of your PopIt instance contain
 ## How to install?
 
 In order to have your own PokeIt site you need to follow these simple steps:
+
 1. Create a [github account][github_signup] (if you already have one can skip this step).
 2. [Fork][fork] this repository into your account.
 3. Create a [PopIt][popit] account.
 4. Create a PopIt instance to store your list of persons.
 5. Create a [WriteIt][writeit] account.
 6. Create a WriteIt instance connected with your PopIt instance.
-7. Now you're ready to enable your PokeIt by editing '''_config.yml''' file to include the PopIt URL, WriteIt URL and changing the name of your new site.
+7. Now you're ready to enable your PokeIt by editing ```_config.yml``` file to include the PopIt URL, WriteIt URL and changing the name of your new site.
 
 You can check the result in _http://yourgithubusername.github.io/yourproject_
 
